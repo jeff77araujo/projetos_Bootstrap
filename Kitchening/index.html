@@ -36,14 +36,14 @@
 
 <body>
 
-    <div class="container d-flex justify-content-center">
-        <img class=" p-0 img-fluid rounded-circle" src="./image/logo.jpg" alt="logo" width="150">
+    <div class="container d-flex justify-content-center" id="inicio">
+        <img class=" p-0 img-fluid rounded-circle" src="./image/logo.jpg" alt="logo" width="170">
     </div>
 
     <!-- Menu -->
     <div class="container ">
-        <div class="container">
-            <div class="row mr-1 ml-1 d-flex justify-content-center">
+        <div class="container p-2">
+            <div class="row mr-1 ml-1 d-flex justify-content-center bg-transparent border-0">
 
                 <div class="col-md-2 p-1  text-center">
                     <div class="bg-dark">
@@ -72,7 +72,7 @@
                 </div>
                 <div class="col-md-2 p-1  text-center">
                     <div class="bg-dark">
-                        <a class="tm-15 text-light" href="">CONTACTO</a>
+                        <a class="tm-15 text-light" href="#final">CONTACTO</a>
                     </div>
                 </div>
             </div>
@@ -172,12 +172,19 @@
         </div>
         <!-- /Anuncio -->
         <!-- footer -->
-        <div class="row mr-3 ml-3">
+        <div class="row mr-3 ml-3 page-footer font-small">
             <footer class="tm-footer d-flex justify-content-center">
                 <div class="row mt-4  text-light">
                     <div class="col-md-12 d-flex justify-content-center">
 
-                        <h3 class="tm-15">Home | Quienes | Servicios | Portfolio | Sucursales | Contacto</h3>
+                        <h3 class="tm-15" id="final">
+                            <a class="text-light btn" href="#inicio">Home</a> |
+                            <a class="text-light btn" href="">Quienes</a> |
+                            <a class="text-light btn" href="">Servicios</a> |
+                            <a class="text-light btn" href="">Portfolio</a> |
+                            <a class="text-light btn" href="">Sucursales</a> |
+                            <a class="text-light btn" href="">Contacto</a>
+                        </h3>
 
                     </div>
                 </div>
